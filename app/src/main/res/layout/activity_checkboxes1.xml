@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkboxes1">
+<ToggleButton
+    android:id="@+id/tgl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="150dp"
+    />
+    <CheckBox
+        android:id="@+id/chkbx"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="180dp"
+
+        />
+    <RadioButton
+        android:id="@+id/rdbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="180dp"
+        />
+    <RatingBar
+        android:id="@+id/rtbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <SeekBar
+        android:id="@+id/skbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="270dp" />
+
+
+
+    <ImageSwitcher
+        android:id="@+id/imgs"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="180dp"
+        />
+    <SearchView
+        android:id="@+id/sv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+     />
+    <DatePicker
+        android:id="@+id/dtpkr"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp" />
+</RelativeLayout>

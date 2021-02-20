@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".checkboxes1"></activity>
+        <activity android:name=".firstlec" />
+        <activity android:name=".signinpage" />
+        <activity android:name=".splashscr">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".calculatorb" />
+        <activity android:name=".basic" />
+        <activity android:name=".secactivity" />
+        <activity android:name=".istactivity" />
+        <activity android:name=".wbViw" />
+        <activity android:name=".Textspeech" />
+        <activity
+            android:name=".AlramReceiver"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Alarm" />
+        <activity android:name=".BasicCalculator" />
+        <activity
+            android:name=".videoplayer"
+            android:screenOrientation="landscape" />
+        <activity android:name=".videoapp" />
+        <activity android:name=".musicb" />
+        <activity android:name=".spinnerr" />
+        <activity android:name=".listview" />
+        <activity android:name=".checkboxes" />
+        <activity android:name=".Radiobutton" />
+        <activity android:name=".forloop" />
+        <activity android:name=".ifelse" />
+        <activity android:name=".Splash" />
+        <activity
+            android:name=".calculator"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+    </application>
+
+</manifest>

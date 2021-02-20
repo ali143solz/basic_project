@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:orientation="vertical"
+    andriod:layout_width="match_parent"
+    andriod:background="#aabbcc"
+    andriod:layout_height="match_parent">
+
+
+   <EditText
+       andriod:layout_width="match_parent"
+       andriod:layout_height="wrap_content"
+       andriod:hint="Enter First Number:"
+       andriod:textSize="30sp"
+       andriod:id="@+id/editfirst"/>
+    <EditText
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:id="@+id/editsec"
+        andriod:textSize="30sp"
+        andriod:hint="Enter Sec Number:"/>
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="+"
+        andriod:id="@+id/btnadd"/>
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="-"
+        andriod:id="@+id/btnmin"/>
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="*"
+        andriod:id="@+id/btnmul"/>
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="/"
+        andriod:id="@+id/btndiv"/>
+    <TextView
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:id="@+id/tvresult"/>
+
+
+
+</LinearLayout>
+

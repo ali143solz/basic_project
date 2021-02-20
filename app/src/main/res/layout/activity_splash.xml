@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:layout_width="match_parent"
+    andriod:background="@color/white"
+    andriod:layout_height="match_parent"
+  >
+
+
+    <ImageView
+        andriod:layout_width="2000dp"
+        andriod:layout_height="90dp"
+        andriod:layout_marginTop="60dp"
+        andriod:src="@drawable/a"
+        />
+    <TextView
+        andriod:id="@+id/txt1"
+        andriod:layout_width="400dp"
+        andriod:layout_height="50dp"
+        andriod:layout_marginTop="290dp"
+        andriod:layout_marginLeft="20dp"
+        andriod:text="Hi, Ali!"
+        andriod:textSize="30dp"
+
+        />
+    <TextView
+        andriod:id="@+id/txt2"
+        andriod:layout_below="@id/txt1"
+        andriod:layout_width="400dp"
+        andriod:layout_height="50dp"
+
+        andriod:layout_marginLeft="20dp"
+        andriod:text="Login Successfully."
+        andriod:textSize="30dp"
+
+        />
+    <TextView
+        andriod:id="@+id/txt3"
+        andriod:layout_below="@id/txt2"
+        andriod:layout_width="400dp"
+        andriod:layout_height="50dp"
+        andriod:layout_marginTop="50dp"
+        andriod:layout_marginLeft="20dp"
+        andriod:text="Welcome."
+        andriod:textSize="30dp"
+
+        />
+</RelativeLayout>
